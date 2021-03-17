@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+  depotdownloader:
+    build: .
+    image: dahlgren/depotdownloader
