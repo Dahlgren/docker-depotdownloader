@@ -1,6 +1,6 @@
 FROM alpine:latest AS downloader
 
-ARG URL=https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.1/DepotDownloader-framework.zip
+ARG URL=https://github.com/SteamRE/DepotDownloader/releases/download/DepotDownloader_2.7.2/DepotDownloader-framework.zip
 
 RUN wget $URL -O depotdownloader.zip \
   && mkdir /depotdownloader \
